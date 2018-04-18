@@ -1,0 +1,782 @@
+
+body
+{
+background-color: azure;
+margin:0px;
+font-family: 'Raleway', sans-serif;
+
+}
+#tablicaskills2
+{
+	visibility:hidden;
+}
+#adrianbukalskim
+{
+	display:none;
+}
+#programowanie
+	{
+	 background-image:url("programowanie2.jpg");
+	 height: 1360px;
+	 position:relative;
+     margin: 0px;
+     width: 100%;
+	 margin-left:0px;
+	 background-size: cover;
+	}
+	#programowanie2
+	{
+	 background-image:url("programowanie2.jpg");
+	 height: 1100px;
+	 
+	  position:relative;
+     width: 100%;
+	 margin-left:0px;
+	 background-size: cover;
+	}
+	#tekstnaobrazie
+	{
+	position:relative; 
+	top:20px;
+		letter-spacing:1px;
+	font-size:80px;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	font-family: 'Abel', sans-serif;
+	}
+	#home{
+		display: inline;
+	}
+	a#home
+	{
+	left:30px;
+	top:30px;
+	text-decoration: none; 
+	font-weight:bold;
+	font-family: 'Raleway', sans-serif;
+		
+	font-size:25px;
+	
+	color:white;
+	z-index:1;
+	position:fixed
+	}
+	a#home:hover{
+		color:silver;
+	}
+	#programista
+	{
+		
+	position:relative; 
+    color: #94A3BA;
+	font-size: 30px;
+	letter-spacing:1px;
+	text-align:center;
+	font-weight: normal;
+	
+	}
+	#adrianbukalski
+	{
+	
+	 position:relative;
+	 top:500px;
+	 z-index: 1;
+	}
+	#czerwonakreska
+	{
+	position:absolute;
+	left:10%;
+	top:33%;
+	
+		
+	}
+	#logofacebook
+	{
+		position:absolute;
+		display:block;
+		width:40px;
+		height:40px;
+		left:55%;
+		top:25%;
+		
+	}
+	#logolinkedin
+	{
+		position:absolute;
+		display:block;
+		width:40px;
+		height:40px;
+		left:60%;
+		top:25%;
+		
+		
+		
+	}
+	#logoinstagram
+	{
+		position:absolute;
+		width:40px;
+		height:40px;
+		left:65%;
+		top:25%;
+
+		
+		
+	}
+	#logotwitter
+	{
+		position:absolute;
+		width:40px;
+		height:40px;
+		left:70.5%;
+		top:25%;
+		
+		
+		
+	}
+	#aboutmetekst1
+	{
+		position:absolute;
+		top:300px;
+		width:35%;
+		height:40%;
+		left:10%;
+		font-size:18px;
+		font-family: 'Raleway', sans-serif;
+		
+		
+	}
+	#aboutmetekst2
+	{
+		position:absolute;
+		top:300px;
+		width:35%;
+		height:40%;
+		left:55%;
+		font-size:18px;
+		text-align:left;
+		font-family: 'Raleway', sans-serif;
+		
+		
+	}
+	#educationnapis1
+	{
+		top:300px;
+		left:7%;
+	}
+	#educationnapis2
+	{
+		top:300px;
+		left:37%;	
+	}
+	#educationnapis3
+	{
+		top:300px;
+		left:71%;		
+	}
+	#experiencenapis1
+	{
+		top:300px;
+		left:10%;
+	}
+	#experiencenapis2
+	{
+		top:300px;
+		left:37%;	
+	}
+	#experiencenapis3
+	{
+		top:300px;
+		left:71%;		
+	}
+	#aboutmenapis
+	{
+		position:absolute;
+		font-family: 'Raleway', sans-serif;
+		top:25%;
+		left:10%;
+		font-size:36px;
+		}
+	
+		.skillsbiale
+		{	
+		
+		
+		   position: relative;
+			font-weight: bold;
+		}
+		.skillsszare
+		{
+			font-family: 'Raleway', sans-serif;
+		
+			position:relative;
+			font-weight: bold;
+		}
+		.skillsszare2
+		{
+			
+		
+			font-size: 30px;
+			color:#003366;
+			font-weight:bold;
+			
+		}
+		.skillsbiale2
+		{
+			
+		
+			font-size:30px;
+			color: #CC0000;
+			font-weight:bold;
+			letter-spacing:1px;
+		}
+		#napisskills
+		{
+			position:absolute;
+		font-family: 'Abel', sans-serif;
+			top:80px;
+			font-size:40px;
+			color:white;
+			letter-spacing:3.8px;
+			font-weight:bold;
+			left:15%;
+		}
+		#bialakreska
+		{
+			position:absolute;
+			top:150px;
+			left:15%;
+			
+		}
+		#tablicaskills
+		{
+			position:absolute;
+            top:25%;	
+            height:60%;
+            left:15%;
+            width:70%;
+			
+		}
+		#quickid
+		{
+			
+   position: absolute;
+    width: 50%;
+	float:left;
+    height: 520px;
+	background-color:#003366;
+	
+		}
+			#kontakt
+		{
+	position:absolute;
+	float:left;
+    left:50%;
+    width: 50%;
+    height: 520px;
+	background-color:#CCCCCC;
+		}
+		
+		#quickidpole
+		{
+			position:absolute;
+			margin-top:200px;
+			left:20%;
+			color:#FFFFFF;
+			font-weight:bold;
+			font-size:17px;
+		}
+		#quickidnapis
+		{
+			position:absolute;
+			color:#FFFFFF;
+			font-family: 'Abel', sans-serif;
+			font-weight:bold;
+			font-size:40px;
+			letter-spacing:3.8px;
+			top:15%;
+			margin-left:20%;
+		}
+		#imie
+		{
+			position:absolute;
+			float:left;
+			left:7%;
+			width:30%;
+			top:35%;
+		}
+		#email
+		{
+			position:absolute;
+			left:43%;
+			top:35%;
+			width:30%;
+			
+		}
+			#subject
+		{
+			position:absolute;
+			float:left;
+			top:45%;
+			left:7%;
+			width:66%;
+		}
+		#message
+		{
+		position:absolute;
+			float:left;
+			top:55%;
+			left:7%;
+			height:20%;
+			width:66%;
+			font-family:Arial, Helvetica, sans-serif;
+			
+		}
+		#contactmenapis
+		{
+		position:absolute;
+		top:15%;
+		font-size:40px;
+		font-weight:bold;
+		left:7%;
+		letter-spacing:3.8px;
+		font-family: 'Abel', sans-serif;
+		
+		
+		}
+		#kreskacontactme
+		{
+			position:relative;
+			top:10px;
+		}
+		
+		.formularz
+		{
+			background-color:#CCCCCC;
+			color:white;
+			font-size:16px;
+			border-right-style: none;
+			border-left-style: none;
+			border-top-style: none;
+			border-bottom-width:1px;
+			border-bottom-color:#000000;
+		}
+		#przyciskwyslij
+		{
+			position:absolute;
+			background-color: transparent;
+			border:none;
+			top:80%;
+			left:36.5%;
+			overflow: hidden;
+			font-size:16px;
+			color:white;
+			background:none;
+			outline:none;
+			cursor:pointer;
+		}
+	.polenrtel
+	{
+		position:relative;
+		left:74px;
+		font-weight:normal;
+	}
+	.polepoczta
+	{
+		position:relative;
+		left:81px;
+		font-weight:normal;
+	}
+	.polewebsite
+	{
+		position:relative;
+		left:60px;
+		font-weight:normal;
+	}
+	.poleadres
+	{
+		position:relative;
+		left:69px;
+		font-weight:normal;
+	}
+	
+		.parallax { 
+    /* The image used */
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+		.tablica
+		{
+			position:relative;
+			width:30%;
+			font-family: 'Abel', sans-serif;
+			
+		
+		}
+		.bialepole
+		{
+			background-color: white;
+					}
+		.szarepole
+		{
+			background-color: #CCCCCC;
+		}
+		.experience
+		{
+		position:absolute;
+		width:25%;
+		height:30%;	
+		font-size:18px;
+		
+		}
+		.education
+		{
+		position:absolute;
+		width:25%;
+		height:30%;	
+		font-size:18px;
+		
+			
+		}
+		.dot {
+position:relative;
+  
+  cursor:pointer;
+ top:-150px;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+	.slideshow-container {
+  width: 100%;
+  position: relative;
+  top:220px;
+  height:750px;
+  
+ background-size: cover;
+ 
+  
+}
+
+.mySlides {
+	display:none;
+	height:100%;
+	width:100%;
+	position:relative;
+	background-color:azure;
+	
+	
+	
+	
+	
+}
+	.prev, .next {
+ cursor:pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media (max-width: 599px)
+ {
+	 
+#home{
+	display:none;
+}
+	#tekstnaobrazie
+	{
+		top:-10%;
+		font-size:45px;
+        
+	}
+	#programista
+	{
+		font-size:23px;
+	}
+	#adrianbukalski{
+		display:none;
+		
+	}
+	#adrianbukalskim{
+	display:block;
+	position:relative;
+	top:10%;
+	
+		height:220px;
+	 z-index: 1;
+	
+	}
+	#napisskills
+	{
+		top:-5%;
+	}
+	#programowanie
+	{
+height:1450px;
+	}
+	#bialakreska
+	{
+		top:2%;
+	}
+	#tablicaskills2
+	{
+		position:absolute;
+            top:10%;	
+            height:80%;
+           left:15%;
+            width:70%;
+	 visibility:visible;
+	 
+	}
+	#tablicaskills
+	{
+		display:none;
+	}
+	
+	
+	.tablica{
+		position:relative;
+		height:17%;
+		
+			font-family: 'Abel', sans-serif;
+	}
+		#quickid
+		{
+			position:relative;
+			margin:0;
+      float:none;
+    width: 100%;
+
+	
+
+	
+		}
+			#kontakt
+		{
+			width:100%;
+			left:0%;
+		}
+		#quickidpole
+		{
+			position:absolute;
+			left:10%;
+			top:5%;
+			font-size:16px;
+			width:80%;
+			
+		}
+		#quickidnapis
+		{
+			margin-left:10%;
+		}
+		#imie
+		{
+			position:absolute;
+			float:left;
+			left:7%;
+			width:40%;
+			top:35%;
+		}
+		#email
+		{
+			position:absolute;
+			left:50%;
+			top:35%;
+			width:40%;
+			
+		}
+			#subject
+		{
+			position:absolute;
+			float:left;
+			top:45%;
+			left:7%;
+			width:83%;
+		}
+		#message
+		{
+		position:absolute;
+			float:left;
+			top:55%;
+			left:7%;
+			height:20%;
+			width:83%;
+			font-family:Arial, Helvetica, sans-serif;
+			
+		}
+		#aboutmenapis
+	{
+		top:5%;
+	}
+	.prev , .next{
+		display:none;
+	}
+		#aboutmetekst1
+	{
+		position:absolute;
+		top:24%;
+		width:90%;
+		height:40%;
+		left:10%;
+		font-size:15px;
+		
+	
+		
+	}
+	.dot{
+		margin-top:25%;
+	}
+	#aboutmetekst2
+	{
+		
+		position:absolute;
+		top:48%;
+		width:90%;
+	    left:10%;
+		
+		height:40%;
+		
+		font-size:15px;
+		
+		
+		
+		
+	}
+	#czerwonakreska
+	{
+		
+		top:13%;
+	}
+.polenrtel
+	{
+		position:relative;
+		left:42px;
+		font-weight:normal;
+	}
+	.polepoczta
+	{
+		position:relative;
+		left:47px;
+		font-weight:normal;
+	}
+	.polewebsite
+	{
+		position:relative;
+		left:32px;
+		font-weight:normal;
+	}
+	.poleadres
+	{
+		position:relative;
+		left:39px;
+		font-weight:normal;
+	}
+		#experiencenapis1
+	{
+		top:20%;
+		width:80%;
+		left:10%;
+	}
+	#experiencenapis2
+	{
+		display:none;	
+	}
+	#experiencenapis3
+	{
+		display:none;		
+	}
+	#educationnapis1
+	{
+		top:20%;
+		width:100%;
+		left:0%;
+	}
+	#educationnapis2
+	{
+		top:44%;
+		width:100%;
+		left:0%;
+	}
+	#educationnapis3
+	{
+		display:none;
+	}
+	#logofacebook
+	{
+		
+		left:20%;
+		top:80%;
+		
+	}
+	#logolinkedin
+	{
+		
+		left:35%;
+		top:79.7%;
+		
+		
+		
+	}
+	#logoinstagram
+	{
+		
+		left:50%;
+		top:79.5%;
+
+		
+		
+	}
+	#logotwitter
+	{
+		
+		left:67%;
+		top:79.4%;
+		
+		
+		
+	}
+}

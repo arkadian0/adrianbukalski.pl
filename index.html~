@@ -1,0 +1,123 @@
+<html lang="pl">
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+    <title>Adrian Bukalski</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+<link rel="Stylesheet" type="text/css" href="mojastrona.css" />
+
+<body>
+
+
+<div id="programowanie" class="parallax" >
+<div id="adrianbukalski" style="text-align: center;"><img src="adryjan.png"></div>
+<div id="tekstnaobrazie">Adrian Bukalski
+<div id="programista">COMPUTER SCIENCE</div></div>
+<a id="home" href="#top">HOME</a>
+<div class="slideshow-container" >
+
+<div class="mySlides fade">
+<a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+<a class="next" onclick="plusDivs(+1)">&#10095;</a>
+<div id="czerwonakreska" ><img src="czerwonakreska.jpg"></div>
+<div id="aboutmenapis">ABOUT ME</div>
+<div id="logofacebook" ><a href="https://www.facebook.com/adrian.bukalski.7"><img src="logofacebook.png"></a></div>
+<div id="logolinkedin" ><a href="https://www.linkedin.com/in/adrian-bukalski-a4850513b/"><img src="logolinkedin.png"></a></div>
+<div id="logotwitter" ><a href="https://twitter.com/arkadianadis?lang=pl"><img src="logotwitter.png"></a></div>
+<div id="logoinstagram" ><a href="https://www.instagram.com/arkadian0/"><img src="logoinstagram.png"></a></div>
+<div id="aboutmetekst1">I decided to build this page because i'am interested in computer science and i wanted to create a something similar to CV. I live in a small village near Radom.I am a computer science student at the Kielce Polytechnic in Kielce.Programming is my passion.</div>
+<div id="aboutmetekst2"> Zdecydowałem sie na stworzenie tej strony , ponieważ interesuje sie infortmatyką i chciałem wykonać coś podobnego do CV . Mieszkam w małej miejscowosci położonej w okolicy Radomia.Jestem studentem informatyki na politechnice świetokrzyskiej w kielcach.Programowanie to moja pasja.</div>
+</div>
+<div class="mySlides fade" >
+<a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+<a class="next" onclick="plusDivs(+1)">&#10095;</a>
+<div id="czerwonakreska" ><img src="czerwonakreska.jpg"></div>
+<div id="aboutmenapis">EXPERIENCE</div>
+<div class="experience"id="experiencenapis1"></div>
+<div class="experience" id="experiencenapis2"></div>
+<div class="experience" id="experiencenapis3"></div>
+</div>
+<div class="mySlides fade" >
+<a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+<a class="next" onclick="plusDivs(+1)">&#10095;</a>
+<div  id="czerwonakreska" ><img src="czerwonakreska.jpg"></div>
+<div id="aboutmenapis">EDUCATION</div>
+<div class="education"id="educationnapis1">2009-2012</div>
+<div class="education" id="educationnapis2"></div>
+<div class="education" id="educationnapis3"></div>
+</div>
+<div class="mySlides fade" >
+<a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+<a class="next" onclick="plusDivs(+1)">&#10095;</a>
+<div id="czerwonakreska" ><img src="czerwonakreska.jpg"></div>
+<div id="aboutmenapis">HOBBIES & INTERESTS</div>
+</div>
+<div style="text-align:center;">
+
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+</div>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="adi.js">
+
+</script>
+<script type="text/javascript" src="autoslide.js">
+
+</script>
+<script type="text/javascript" src="scroll.js">
+
+</script>
+<script type="text/javascript" src="formularz.js">
+
+</script>
+
+<div id="programowanie2" class="parallax">
+
+					
+</div>
+<div id="quickid">
+<span id="quickidnapis">QUICK ID
+<div id="kreskaquickid" style="margin-top:10px; margin-left:20%;"><img src="czerwonakreska.jpg"></div>
+</span>
+
+<div id="quickidpole">
+<span >Phone<span class="polenrtel">502-347-982<br /><br /></span></span>
+<span >Email<span class="polepoczta">adrianbukalski96@gmail.com<br /><br /></span></span>
+<span >Website<span class="polewebsite">www.adrianbukalski.pl<br /><br /></span></span>
+<span >Addres<span class="poleadres">Bąków 47 , 26-505 Orońsko<br /><br /></span></span>
+</div>
+
+</div> 
+<div id="kontakt">
+<span id ="contactmenapis">CONTACT ME
+<div id="kreskacontactme"><img src="czerwonakreska.jpg"></div>
+</span>
+<form action="poczta.php" action="poczta.php" method="post" name="formularze">
+<input id="imie" class="formularz" type=text name="imie" value="Name" onclick="getText(0)" onmouseout="setTimeout(function(){getText2(0);}, 2000);" /><br/>
+<input id="email" class="formularz" type=text name="email" value="Email" onclick="getText(1)" onmouseout="setTimeout(function(){getText2(1);}, 2000);" /><br/>
+<input id="subject" class="formularz" type=text name="subject" value="Subject" onclick="getText(2)" onmouseout="setTimeout(function(){getText2(2);}, 2000);"/><br/>
+
+<textarea id="message" class="formularz" rows="4" cols="50" name="message" form="formularze" onclick="getText(3)" onmouseout="setTimeout(function(){getText2(3);}, 2000);">Message</textarea>
+ <button type="button" id="przyciskwyslij" onclick="wyslij();">Send</button> 
+ <?php include 'poczta.php';?>
+</div> 
+
+</body>
+
+</head>
+</html>
+div
